@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation RPG - a1.0.0</title>
+    <link rel="stylesheet" href="common/style/background.css">
+    <link rel="stylesheet" href="common/style/combat.css">
+    <link rel="icon" type="image/png" href="common/images/important/hen tie/favicon.png"/>
+</head>
+
+<body>
+    <audio id="audio"></audio>
+    <audio id="effect"></audio>
+    <div id="combatframe">
+        <div id="playerstatusicons"></div>
+        <div id="playerframe">
+            <div id="playerPortrait"></div>
+            <div id="playerNameFrame">
+                <p id="playerNameText">Lokir;)</p>
+            </div>
+            <div id="playerHealthBG">
+                <div id="playerHealthTaken"></div>
+                <div id="playerHealth"></div>
+                <p id="playerHealthNum"></p>
+            </div>
+            <div id="playerManaBG">
+                <div id="playerManaTaken"></div>
+                <div id="playerMana"></div>
+                <p id="playerManaNum"></p>
+            </div>
+        </div>
+        <div id="playerAbilityContainer">
+            <div id="abilityIndicator"></div>
+            <div id="skills">Skills</div>
+            <div id="spells">Spells</div>
+            <div id="items">Items</div>
+            <div id="playerAbilities">
+            </div>
+        </div>
+    </div>
+    <div id="enemyFrame">
+        <div id="enemystatusicons"></div>
+        <div id="enemyHealthBG">
+            <div id="enemyHealthTaken"></div>
+            <div id="enemyHealth"></div>
+            <p id="enemyHealthNum"></p>
+        </div>
+        <div id="enemyManaBG">
+            <div id="enemyManaTaken"></div>
+            <div id="enemyMana"></div>
+            <p id="enemyManaNum"></p>
+        </div>
+        <div id="enemyPicture"></div>
+        <div id="enemyPortrait"></div>
+        <div id="enemyNameFrame">
+            <p id="enemyNameText">Demon Lord ;)</p>
+        </div>
+    </div>
+    <div id="textForAbilitiesAndSpells"></div>
+    <div id="body2"></div>
+
+</body>
+
+</html>
+<script src="common/scripts/DeepCopy.js"></script>
+<script src="common/scripts/statuses.js"></script>
+<script src="common/scripts/abilitiDescs.js"></script>
+<script src="common/scripts/abilities.js"></script>
+<script src="common/scripts/enemies.js"></script>
+<script src="common/scripts/values.js"></script>
+<script src="common/scripts/player.js"></script>
+<script src="common/scripts/BodyModification.js"></script>
+<script src="common/scripts/menus.js"></script>
+<script src="common/scripts/enemyAi.js"></script>
+<script src="common/scripts/combat.js"></script>

@@ -1,0 +1,25 @@
+body {
+    background: rgb(30,30,30);
+    background: radial-gradient(circle, rgba(30,30,30,1) 40%, rgba(21,21,21,1) 100%);
+    user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #303030;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(68, 68, 68);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(88, 88, 88);
+  }
